@@ -3,9 +3,7 @@ import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.Id;
 import javax.persistence.Table;
-
 @Entity
-
 @Table
 public class Books
 {
@@ -39,11 +37,10 @@ public void setBookid(int bookid)
 {
 	this.bookid=bookid;
 }
-public String getBookname()
+public String getBookname()	
 {
 return bookname;
 }
-
 public String getAuthor() 
 {
 return author;
@@ -54,3 +51,4 @@ public int getPrice()
 return price;
 }
 }//this is my update code
+//add also ur another files
